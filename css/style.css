@@ -1,0 +1,182 @@
+/* ---- CSS Reset ---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+     background: #FFFEF4;
+}
+
+/* -------------------- */
+/*        HEADER        */
+/* -------------------- */
+.header {
+    min-height: 60px;
+    padding: 20px;
+}
+
+.nav {
+    max-width: 1040px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-logo {
+    width: 120px;
+}
+.nav-links {
+    text-decoration: none;
+    color: black;
+}
+.nav-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 26px;
+}
+.nav-links-linkedin img{
+    height: 34px;
+    width: 34px;
+}
+
+
+/* ------------------------- */
+/*       HERO SECTION        */
+/* ------------------------- */
+.hero {
+    padding: 100px;
+    min-height: 44vh;
+}
+.hero-yellow {
+    max-width: 1300px;
+    margin: 50px auto;
+    background: #f9c373;
+    padding: 20px;
+    border-radius: 0px 50px;
+    width: 100%;
+    height: 370px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32em;
+
+    position: relative;
+}
+.headshot {
+    position: absolute;
+    top: -44px;
+    left: 125px;
+    width: 100%;
+    max-width: 410px;
+}
+.wordContainer {
+    position: relative;
+}
+.wordContainer-text {
+    position: absolute;
+    left: 125px;
+    font-size: 20px;
+}
+
+/* ------------------ */
+/*       FOOTER       */
+/* ------------------ */
+.footer {
+    background: #B5C995;
+    padding: 100px
+}
+.footer-container {
+    max-width: 1300px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container-leftContent {
+    width: 80%;
+}
+form {
+    display: flex;
+    gap: 32px;
+}
+label {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+}
+input[name=message] {
+    height: 92px;
+}
+input[type=text] {
+    min-height: 32px;
+    width: 400px;
+}
+input[type=submit] {
+    background: #363666;
+    border: none;
+    border-radius: 5px;
+
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFEF4;
+
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 8px 4px;
+}
+
+.footer-container-rightContent {
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+}
+
+
+/* ----------------- */
+/*       FONTS       */
+/* ----------------- */
+@font-face {
+    font-family: Agrandir Grand-Heavy;
+    src: url(/fonts/Agrandir-GrandHeavy.woff);
+}
+@font-face {
+    font-family: Agrandir Grand-Light;
+    src: url(/fonts/Agrandir-GrandLight.woff);
+}
+@font-face {
+    font-family: Agrandir Text-Bold;
+    src: url(/fonts/Agrandir-TextBold.woff);
+}
+
+h1 {
+    font-family: "Agrandir Grand-Heavy", Helvetica, sans-serif;
+    font-size: 5em;
+    letter-spacing: 0.5rem;
+}
+h2 {
+    font-family: 'Agrandir Grand-Light', Helvetica, sans-serif;
+    font-size: 5em;
+    letter-spacing: 0.5rem;
+}
+h3 {
+    font-family: 'Agrandir Text-Bold', Helvetica, sans-serif;
+    font-size: 3em;
+}
+h4 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+p {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+a {
+    font-family: 'Poppins', Arial, sans-serif;
+}
