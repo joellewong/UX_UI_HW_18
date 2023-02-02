@@ -6,10 +6,6 @@
 }
 
 
-body {
-     background: #FFFEF4;
-}
-
 /* -------------------- */
 /*        HEADER        */
 /* -------------------- */
@@ -19,7 +15,7 @@ body {
 }
 
 .nav {
-    max-width: 1040px;
+    max-width: 1300px;
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -43,22 +39,24 @@ body {
     width: 34px;
 }
 
+.nav, .hero {
+    background-color: #FFFEF4;
+}
 
 /* ------------------------- */
 /*       HERO SECTION        */
 /* ------------------------- */
 .hero {
-    padding: 100px;
-    min-height: 44vh;
+    padding: 64px 100px 32px 100px;
 }
-.hero-yellow {
+.hero-green {
     max-width: 1300px;
     margin: 50px auto;
-    background: #f9c373;
+    background: #CAD8B5;
     padding: 20px;
     border-radius: 0px 50px;
     width: 100%;
-    height: 370px;
+    height: 350px;
 
     display: flex;
     justify-content: center;
@@ -69,10 +67,17 @@ body {
 }
 .headshot {
     position: absolute;
-    top: -44px;
+    top: -50px;
     left: 125px;
     width: 100%;
     max-width: 410px;
+}
+.hero-green-rightContent {
+    position: absolute;
+    left: 55%;
+}
+.hero-green-rightContent-ln {
+    font-family: 'Agrandir Grand-Light', Helvetica, sans-serif;
 }
 .wordContainer {
     position: relative;
@@ -83,57 +88,129 @@ body {
     font-size: 20px;
 }
 
+
+/* -------------- */
+/*     SKILLS     */
+/* -------------- */
+.skills {
+    max-width: 1300px;
+    margin: 32px auto;
+}
+.skills-content {
+    max-width: 1300px;
+    margin: 64px auto;
+    display: flex;
+    gap: 24px;
+}
+.skillCard {
+    background-color: #E9E8DD;
+    border: 1px solid #7D7D7D;
+    border-radius: 5px;
+    padding: 32px;
+}
+.skillIcon {
+    width: 40px;
+}
+
+
+/* ---------------- */
+/*     PROJECTS     */
+/* ---------------- */
+.projects {
+    max-width: 1300px;
+    margin: 32px auto;
+}
+.projectCard {
+    max-width: 1300px;
+    margin-top: 32px;
+    background-color: #E9E8DD;
+    border: 1px solid #7D7D7D;
+    border-radius: 5px;
+    display: flex;
+}
+.projectCard-img {
+    width: 40%;
+    margin-right: 24px;
+}
+.projectCard-body {
+    padding: 32px;
+    padding-left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+.projectCard-body-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.projectCard-body-button {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    background-color: #61609A;
+    padding: 12px 32px;
+    border-radius: 5px;
+}
+
+
 /* ------------------ */
 /*       FOOTER       */
 /* ------------------ */
 .footer {
-    background: #B5C995;
-    padding: 100px
+    background: #CAD8B5;
+    padding: 64px 100px;
 }
 .footer-container {
     max-width: 1300px;
     gap: 32px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
 }
 
 .footer-container-leftContent {
-    width: 80%;
-}
-form {
     display: flex;
-    gap: 32px;
+    flex-direction: column;
 }
-label {
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 14px;
+.contact-socials {
+    margin-top: auto;
 }
-input[name=message] {
-    height: 92px;
+.socials {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    margin: 6px auto;
 }
-input[type=text] {
+.socials-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-container-rightContent {
+    width: 750px;
+}
+.footer-container-rightContent .longInput {
+    height: 80px;
+}
+.footer-container-rightContent input {
     min-height: 32px;
-    width: 400px;
+    width: 100%;
 }
-input[type=submit] {
-    background: #363666;
+.footer-container-rightContent .button {
+    background: #3F3F3F;
     border: none;
     border-radius: 5px;
 
     font-family: 'Poppins', Arial, sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     color: #FFFEF4;
 
-    padding: 10px 30px;
+    padding: 5px 150px;
     text-decoration: none;
-    margin: 8px 4px;
-}
-
-.footer-container-rightContent {
-    display: flex;
-    margin-left: auto;
-    gap: 16px;
+    margin: 8px auto;
 }
 
 
@@ -155,28 +232,29 @@ input[type=submit] {
 
 h1 {
     font-family: "Agrandir Grand-Heavy", Helvetica, sans-serif;
-    font-size: 5em;
+    font-size: 72px;
     letter-spacing: 0.5rem;
 }
 h2 {
-    font-family: 'Agrandir Grand-Light', Helvetica, sans-serif;
-    font-size: 5em;
-    letter-spacing: 0.5rem;
+    font-family: 'Agrandir Text-Bold', Helvetica, sans-serif;
+    font-size: 36px;
 }
 h3 {
-    font-family: 'Agrandir Text-Bold', Helvetica, sans-serif;
-    font-size: 3em;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
 }
 h4 {
     font-family: 'Poppins', Arial, sans-serif;
-    font-weight: 400;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 24px;
 }
-p {
+h5 {
     font-family: 'Poppins', Arial, sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
 }
-a {
+p, a, label {
     font-family: 'Poppins', Arial, sans-serif;
+    font-size: 18px;
 }

@@ -22,6 +22,7 @@
 
 <body>
 
+    <!-- Nav Bar -->
     <header class="header">
 
         <nav class="nav">
@@ -42,19 +43,20 @@
 
     <main class="main">
 
+        <!-- Hero Section -->
         <section class="hero">
 
-            <div class="hero-yellow">
+            <div class="hero-green">
 
-                <div class="hero-yellow-leftContent">
+                <div class="hero-green-leftContent">
                     <img class="headshot" src="/images/joelle.png" alt="Picture of Joelle">
                 </div>
 
-                <div class="hero-yellow-rightContent">
-                    <h4 class="hero-yellow-rightContent-h4"> Hi, I'm </h4>
-                    <h1 class="hero-yellow-rightContent-h1">
-                        JOELLE
-                        <h2 class="hero-yellow-rightContent-heading"> WONG </h2>
+                <div class="hero-green-rightContent">
+                    <h3 class="hero-green-rightContent-h3"> Hi, I'm </h3>
+                    <h1 class="hero-green-rightContent-h1">
+                        JOELLE <br>
+                        <span class="hero-green-rightContent-ln"> WONG </span>
                     </h1>
                 </div>
 
@@ -63,12 +65,107 @@
             <div class="wordContainer">
                 <p class="wordContainer-text"> I am passionate about making functional stuff look pretty. </p>
             </div>
+
+            <!-- <div class="arrow">
+                <img src="" alt="">
+            </div> -->
             
         </section>
 
-        <section class="portfolio">
+        <!-- Skills -->
+        <section class="skills">
 
-            
+            <div class="skills-content">
+
+                <div class="skillCard" id="userResearch">
+                    <img class="skillIcon" src="/images/research.png" alt="research icon" >
+                    <h4 class="skillTitle"> User Research </h4>
+                    <p> Reprehenderit exercitation proident esse ad nulla irure anim commodo id. Reprehenderit culpa est nulla ut. </p>
+                </div>
+
+                <div class="skillCard" id="prototyping">
+                    <img class="skillIcon" src="/images/prototyping.png" alt="prototype icon" >
+                    <h4 class="skillTitle"> Prototyping </h4>
+                    <p> Reprehenderit exercitation proident esse ad nulla irure anim commodo id. Reprehenderit culpa est nulla ut. </p>
+                </div>
+
+                <div class="skillCard" id="rwd">
+                    <img class="skillIcon" src="/images/ui-design.png" alt="ui design icon" >
+                    <h4 class="skillTitle"> Responsive Web Design </h4>
+                    <p> Reprehenderit exercitation proident esse ad nulla irure anim commodo id. Reprehenderit culpa est nulla ut. </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects -->
+        <section class="projects">
+
+            <div class="projects-heading">
+                <h2> PROJECTS </h2>
+            </div>
+
+            <div class="projects-content">
+
+                <div class="projectCard" id="project1">
+
+                    <img  class="projectCard-img" src="/images/nonprofit_thumbnail.png" alt="nonprofit thumbnail">
+
+                    <div class="projectCard-body">
+                        <div class="projectCard-body-heading">
+                            <h3> Nonprofit Website Redesign </h3>
+                            <h5> UI Design | Usability Testing | Stakeholder Interview </h5>
+                        </div>
+                        
+                        <p class="projectCard-body-text">
+                            Improvements of New Hope Community Bikes' website aimed at better communicating organization values and goals, and providing users fluid access to events and programming.
+                        </p>
+
+                        <a class="projectCard-body-button" href="#"> GO TO CASE STUDY </a>
+                    </div>
+
+                </div>
+
+                <div class="projectCard" id="project2">
+                    
+                    <img  class="projectCard-img" src="https://via.placeholder.com/500x400" alt="nonprofit thumbnail">
+
+                    <div class="projectCard-body">
+                        <div class="projectCard-body-heading">
+                            <h3> Government Agency Website Redesign </h3>
+                            <h5> UI Design | Information Architecture </h5>
+                        </div>
+                        
+                        <p class="projectCard-body-text">
+                            Rework of the Canadian Space Agency website focused on creating an intuitive information architecture and navigation system.
+                        </p>
+
+                        <a class="projectCard-body-button" href="#"> GO TO CASE STUDY </a>
+                    </div>
+
+                </div>
+
+                <div class="projectCard" id="project3">
+                    
+                    <img  class="projectCard-img" src="https://via.placeholder.com/500x400" alt="nonprofit thumbnail">
+
+                    <div class="projectCard-body">
+                        <div class="projectCard-body-heading">
+                            <h3> LocalEyez </h3>
+                            <h5> UX Design | Persona Development | Prototyping </h5>
+                        </div>
+                        
+                        <p class="projectCard-body-text">
+                            A mobile travel app that aimed to curate all the local favourites for travellers on the go. Through this project, I gained experience applying UX industry standards to the design process - from user interviews to a lo-fi prototype.
+                        </p>
+
+                        <a class="projectCard-body-button" href="#"> GO TO CASE STUDY </a>
+                    </div>
+
+                </div>
+
+            </div>
 
         </section>
 
@@ -80,32 +177,45 @@
 
             <div class="footer-container-leftContent">
 
-                <div class="heading">
-                    <h3 class="heading-text"> Get In Touch! </h3>
-                </div>
+                <h2 class="contact-heading"> Get In Touch! </h2>
+                <p class="contact-text"> I love to hear about any and all interesting projects or exciting opportunities that I can be a part of. Please feel free to contact me through email or fill out the form! </p>
 
-                <form>
+                <div class="contact-socials">
+                
+                    <p class="socials-text"> Check out my socials! </p>
                     
-                    <div class="column1">
-                        <label for="name"> Name </label> <br>
-                        <input type="text" name="name"> <br><br>
-                        <label for="email"> Email </label> <br>
-                        <input type="text" name="email"> <br>
-                    </div>
-                    
-                    <div class="column2">
-                        <label for="message"> Your Message Here... </label> <br>
-                        <input type="text" name="message"> <br><br>
-                        <input type="submit" value="SEND!">
-                    </div>
-                    
-                </form>
+                    <ul class="socials">
+
+                        <li class="socials-icon">
+                            <a href="https://www.instagram.com/artsyjoejoe/"> <img src="/images/instagram.png" alt="Instagram"> </a>
+                        </li>
+                        <li class="socials-icon">
+                            <a href="https://www.linkedin.com/in/joelle-wong-1a4076163/"> <img src="/images/linkedin.png" alt="LinkedIn"> </a>
+                        </li>
+                        <li class="socials-icon">
+                            <a href="mailto:joelle.yh.wong@gmail.com"> <img src="/images/email.png" alt="Email"> </a>
+                        </li>
+
+                    </ul>
+
+                </div>
 
             </div>
 
             <div class="footer-container-rightContent">
-                <a href="https://www.instagram.com/artsyjoejoe/"> <img src="/images/instagram.png" alt="Instagram" width="45" height="45"> </a>
-                <a href="https://www.linkedin.com/in/joelle-wong-1a4076163/"> <img src="/images/linkedin.png" alt="LinkedIn" width="45" height="45"> </a>
+
+                <form>
+
+                        <label for="name"> Name </label> <br>
+                        <input type="text" name="name"> <br><br>
+                        <label for="email"> Email </label> <br>
+                        <input type="text" name="email"> <br><br>
+                        <label for="message"> Your Message Here... </label> <br>
+                        <input class="longInput" type="text" name="message"> <br><br>
+                        <input class="button" type="submit" value="SEND!">
+                    
+                </form>
+
             </div>
 
         </section>
