@@ -147,12 +147,13 @@
     gap: 12px;
 }
 .projectCard-body-button {
-    display: inline;
+    padding: 12px 32px;
+    border-radius: 5px;
+    max-width: 232px;
     text-decoration: none;
     color: white;
     background-color: #61609A;
-    padding: 12px 32px;
-    border-radius: 5px;
+    
 }
 
 
