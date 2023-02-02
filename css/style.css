@@ -156,6 +156,15 @@
     
 }
 
+#project2 .projectCard-body {
+    padding: 32px;
+    padding-right: 0;
+}
+#project2 .projectCard-img {
+    margin-right: 0;
+    margin-left: 24px;
+}
+
 
 /* ------------------ */
 /*       FOOTER       */
