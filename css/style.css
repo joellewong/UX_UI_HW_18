@@ -118,7 +118,7 @@
 /* ---------------- */
 .projects {
     max-width: 1300px;
-    margin: 32px auto;
+    margin: 64px auto;
 }
 .projectCard {
     max-width: 1300px;
@@ -172,6 +172,7 @@
 .footer {
     background: #CAD8B5;
     padding: 64px 100px;
+    margin-top: 32px;
 }
 .footer-container {
     max-width: 1300px;
